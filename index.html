@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>To-Do App</title>
 </head>
 <body>
-    <h1>hello world!</h1>
-    
+    <h1>To-Dos</h1>
+    <form id="form">
+        <input type="text" id="input" class="input" placeholder="Type your to-do" autocomplete="off" />
+        <ul class="todos" id="todos">
+        </ul>
+    </form>
+    <small>Left click to mark as complete. <br />Double click to delete to-do.</small>
 </body>
 </html>
