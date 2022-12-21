@@ -63,3 +63,11 @@ small {
     color: #b5b5b5;
     margin-top: 3rem;
 }
+
+.reset {
+    cursor: pointer;
+    margin-top: 5rem;
+    color: red;
+    font-weight: bold;
+    font-size: 0.8rem;
+}

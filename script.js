@@ -1,6 +1,7 @@
 const form = document.getElementById('form');
 const input = document.getElementById('input');
 const todos = document.getElementById('todos');
+const reset = document.getElementById('reset')
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -21,10 +22,16 @@ form.addEventListener('submit', (e) => {
             e.preventDefault();
             
             todoEl.remove();
-        })
+        });
 
         todos.appendChild(todoEl);
 
         input.value = "";
+
+        reset.addEventListener('click', () => {
+            todoEl.remove();
+    })
     }
+
+
 });
