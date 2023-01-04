@@ -30,7 +30,7 @@ form.addEventListener('submit', (e) => {
 
         reset.addEventListener('click', () => {
             todoEl.remove();
-    })
+    });
     }
 
 
