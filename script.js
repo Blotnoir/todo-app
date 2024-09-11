@@ -26,7 +26,7 @@ form.addEventListener('submit', (e) => {
 
         todos.appendChild(todoEl);
 
-        input.value = "";
+        input.value = " ";
 
         reset.addEventListener('click', () => {
             todoEl.remove();
